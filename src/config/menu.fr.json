@@ -8,259 +8,35 @@
     },
     {
       "enable": true,
-      "name": "Menu M ga",
+      "name": "Services",
       "weight": 1,
-      "hasChildren": true,
-      "children": [
-        {
-          "enable": true,
-          "name": "Menu M ga disponible uniquement dans la version Pro",
-          "url": "https://lumio-astro.netlify.app"
-        }
-      ]
+      "url": "/services/"
     },
     {
-      "name": "Pages",
       "enable": true,
+      "name": "Contact",
       "weight": 2,
-      "hasChildren": true,
-      "children": [
-        {
-          "enable": true,
-          "name": "Accueil",
-          "weight": 0,
-          "hasChildren": true,
-          "children": [
-            {
-              "enable": true,
-              "name": "Accueil 01",
-              "url": "https://lumio-astro.netlify.app/",
-              "weight": 1
-            },
-            {
-              "enable": true,
-              "name": "Accueil 02",
-              "url": "/",
-              "weight": 2
-            },
-            {
-              "enable": true,
-              "name": "Accueil 03",
-              "url": "https://lumio-astro.netlify.app/home-three/",
-              "weight": 3
-            }
-          ]
-        },
-        {
-          "enable": true,
-          "name": "Projets",
-          "weight": 0,
-          "hasChildren": true,
-          "children": [
-            {
-              "enable": true,
-              "name": "Projet",
-              "url": "https://lumio-astro.netlify.app/case-studies/",
-              "weight": 0
-            },
-            {
-              "enable": true,
-              "name": "Projet Single",
-              "url": "https://lumio-astro.netlify.app/case-studies/custom-slug-case-studies-1/",
-              "weight": 0
-            }
-          ]
-        },
-        {
-          "enable": true,
-          "name": "Blog",
-          "weight": 0,
-          "hasChildren": true,
-          "children": [
-            {
-              "enable": true,
-              "name": "Blog",
-              "url": "https://lumio-astro.netlify.app/blog/",
-              "weight": 0
-            },
-            {
-              "enable": true,
-              "name": "Blog Single",
-              "url": "https://lumio-astro.netlify.app/blog/custom-slug-post-1/",
-              "weight": 0
-            }
-          ]
-        },
-        {
-          "enable": true,
-          "name": "Services",
-          "weight": 0,
-          "hasChildren": true,
-          "children": [
-            {
-              "enable": true,
-              "name": "Services",
-              "url": "/services/",
-              "weight": 0
-            },
-            {
-              "enable": true,
-              "name": "Services Single",
-              "url": "/services/developpement-web/",
-              "weight": 0
-            }
-          ]
-        },
-        {
-          "enable": true,
-          "name": "A propos",
-          "url": "https://lumio-astro.netlify.app/about/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Membre de l' quipe",
-          "url": "https://lumio-astro.netlify.app/team",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Plan de Tarification",
-          "url": "https://lumio-astro.netlify.app/pricing/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "FAQ",
-          "url": "https://lumio-astro.netlify.app/faq/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "404",
-          "url": "/404/",
-          "weight": 0,
-          "badge": {
-            "enable": true,
-            "label": "Badge",
-            "color": "accent",
-            "_color_comment": "color expected value - accent, info, success, danger, dark",
-            "type": "text",
-            "_type_comment": "type expected value - text, dot"
-          }
-        }
-      ]
-    },
-    {
-      "enable": true,
-      "name": "Composants",
-      "weight": 3,
-      "url": "https://lumio-astro.netlify.app/components/",
-      "badge": {
-        "enable": true,
-        "label": "Nouveau",
-        "color": "accent",
-        "_color_comment": "color expected value - accent, info, success, danger, dark",
-        "type": "text",
-        "_type_comment": "type expected value - text, dot"
-      }
-    },
-    {
-      "enable": true,
-      "name": "Contact",
-      "weight": 4,
-      "url": "https://lumio-astro.netlify.app/contact/"
+      "url": "/#contact"
     }
   ],
-  "topbar": [
-    {
-      "enable": true,
-      "name": "Aide",
-      "url": "/",
-      "weight": 0
-    },
-    {
-      "enable": true,
-      "name": "Support",
-      "url": "/",
-      "weight": 0
-    },
-    {
-      "enable": true,
-      "name": "Contact",
-      "url": "/",
-      "weight": 0
-    }
-  ],
+  "topbar": [],
   "footer": [
     {
-      "label": "Liens",
+      "label": "Navigation",
       "list": [
-        {
-          "enable": true,
-          "name": "Accueil",
-          "url": "/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "A propos",
-          "url": "/about/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Services",
-          "url": "/services/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Etudes de cas",
-          "url": "/case-studies/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Contact",
-          "url": "/contact/",
-          "weight": 0
-        }
+        { "enable": true, "name": "Accueil", "url": "/", "weight": 0 },
+        { "enable": true, "name": "Services", "url": "/services/", "weight": 1 },
+        { "enable": true, "name": "Contact", "url": "/#contact", "weight": 2 }
       ]
     },
     {
       "label": "Services",
       "list": [
-        {
-          "enable": true,
-          "name": "D veloppement d'applications",
-          "url": "/services/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "S curit des donn es",
-          "url": "/services/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "S curit cybern tique",
-          "url": "/services/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Marketing num rique",
-          "url": "/services/",
-          "weight": 0
-        },
-        {
-          "enable": true,
-          "name": "Conception graphique",
-          "url": "/services/",
-          "weight": 0
-        }
+        { "enable": true, "name": "Automatisation de flux", "url": "/services/automatisation-flux/", "weight": 0 },
+        { "enable": true, "name": "Agent IA sur mesure", "url": "/services/agent-ia/", "weight": 1 },
+        { "enable": true, "name": "Chatbot & assistant", "url": "/services/chatbot-assistant/", "weight": 2 },
+        { "enable": true, "name": "Extraction de données", "url": "/services/extraction-donnees/", "weight": 3 },
+        { "enable": true, "name": "Intégrations CRM", "url": "/services/integrations-crm/", "weight": 4 }
       ]
     }
   ]

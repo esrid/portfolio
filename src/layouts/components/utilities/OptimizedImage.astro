@@ -114,5 +114,17 @@ if (!isRemoteImage) {
       {...{ class: Astro.props.class }}
       {...rest}
     />
+  ) : isRemoteImage ? (
+    <img
+      style={style}
+      alt={alt || ""}
+      width={width}
+      height={height}
+      loading={resolvedLoading}
+      decoding={resolvedDecoding}
+      src={src}
+      {...{ class: Astro.props.class }}
+      {...rest}
+    />
   ) : null
 }

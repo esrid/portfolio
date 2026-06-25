@@ -27,7 +27,7 @@ const copyrightText = copyright.text;
         class="grid gap-12 py-15 md:grid-cols-6 md:py-20 lg:flex lg:justify-between xl:py-27">
         <div class="space-y-4 md:col-span-3">
           <h3
-            class="text-text-inverse mb-4 text-2xl font-semibold capitalize md:mb-10">
+            class="text-text-inverse mb-4 text-2xl font-semibold md:mb-10">
             {t("footerBlock.aboutUsLabel")}
           </h3>
           {
@@ -42,7 +42,7 @@ const copyrightText = copyright.text;
 
         <div class="md:col-span-3">
           <h3
-            class="text-text-inverse mb-4 text-2xl font-semibold capitalize md:mb-10">
+            class="text-text-inverse mb-4 text-2xl font-semibold md:mb-10">
             {t("footerBlock.officeLabel")}
           </h3>
           <div class="text-text-inverse/50 flex flex-col gap-0 md:gap-4">
@@ -73,7 +73,7 @@ const copyrightText = copyright.text;
             <div class="md:col-span-2">
               {menu.label && (
                 <h3
-                  class="text-text-inverse mb-4 text-2xl font-semibold capitalize md:mb-10"
+                  class="text-text-inverse mb-4 text-2xl font-semibold md:mb-10"
                   set:html={markdownify(menu.label)}
                 />
               )}
@@ -97,31 +97,29 @@ const copyrightText = copyright.text;
           ))
         }
 
-        <div class="md:col-span-2">
-          <h3
-            class="text-text-inverse mb-4 text-2xl font-semibold capitalize md:mb-10">
-            {t("footerBlock.socialLabel")}
-          </h3>
-          <ul class="flex flex-col gap-3.5">
-            {
-              filteredEnabled(social.main).map((item: any) => (
-                <li>
-                  <Button
-                    tag="a"
-                    variant="text"
-                    url={getLocaleUrlCTM(
-                      item.url as string,
-                      Astro.currentLocale,
-                    )}
-                    aria-label={item.label}
-                    label={item.label}
-                    class="text-text-inverse/50 hover:text-text-inverse capitalize transition-colors"
-                  />
-                </li>
-              ))
-            }
-          </ul>
-        </div>
+        {
+          filteredEnabled(social.main).length > 0 && (
+            <div class="md:col-span-2">
+              <h3 class="text-text-inverse mb-4 text-2xl font-semibold md:mb-10">
+                {t("footerBlock.socialLabel")}
+              </h3>
+              <ul class="flex flex-col gap-3.5">
+                {filteredEnabled(social.main).map((item: any) => (
+                  <li>
+                    <Button
+                      tag="a"
+                      variant="text"
+                      url={getLocaleUrlCTM(item.url as string, Astro.currentLocale)}
+                      aria-label={item.label}
+                      label={item.label}
+                      class="text-text-inverse/50 hover:text-text-inverse capitalize transition-colors"
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
       </div>
 
       <div

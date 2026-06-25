@@ -1,16 +1,16 @@
 ---
 enable: true
-badge: "// PROCESSUS DE TRAVAIL"
-title: "Notre methode pour faire grandir votre entreprise"
-image: "/images/service/working-process.png"
+badge: "// Méthode"
+title: "Simple, rapide, mesurable."
+image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80"
 list:
-  - title: "Cadrage et planification"
-    description: "Nous clarifions les besoins, les objectifs et les priorites pour poser une base solide des le depart."
+  - title: "Appel de découverte"
+    description: "30 minutes pour identifier vos tâches répétitives et estimer le temps récupérable chaque semaine."
     icon: "images/icons/svg/planning.svg"
-  - title: "Execution et developpement"
-    description: "Nous avancons avec un suivi regulier, des iterations claires et une attention constante a la qualite."
+  - title: "Devis clair, sans surprise"
+    description: "Un périmètre précis, un délai réaliste, un prix fixe. Vous validez avant que je commence."
     icon: "images/icons/svg/coding.svg"
-  - title: "Tests et maintenance"
-    description: "Nous verifions, stabilisons et accompagnons la solution pour garantir sa fiabilite dans le temps."
+  - title: "Livraison en 72h"
+    description: "Premier livrable rapidement. Vous testez, on ajuste. Accompagnement inclus le premier mois."
     icon: "images/icons/svg/book.svg"
 ---

@@ -1,15 +1,15 @@
 ---
-subtitle: "Nous sommes une agence de services IT"
-title: "Nous aidons les dirigeants a faire <br /> leur entreprise pour un avenir plus"
-description: "Nous vous accompagnons avec une approche personnalisee pour structurer, lancer et faire evoluer"
+subtitle: "Martinique · Remote · France"
+title: "Automatisez ce qui <br /> vous ralentit."
+description: "Agents IA, automatisation de flux, intégrations sur mesure — pour les PME qui veulent aller plus vite sans recruter."
 
-image: "/images/home-banner/banner-3.jpg"
-imageAlt: "Collaboration d'equipe"
+image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80"
+imageAlt: "Tech corporate background"
 
 button:
   enable: true
-  label: "Consultation gratuite"
-  url: "/#contact"
+  label: "Prendre RDV"
+  url: "mailto:contact@bureau-mq.com"
   icon:
     enable: true
     name: "ArrowUpRight"
@@ -17,11 +17,8 @@ button:
   variant: "fill"
 
 satisfactionClients:
-  enable: true
-  count: "2.5m"
-  label: "Des clients accompagnes dans le monde entier"
-  avatars:
-    - "/images/customers/avatar/client-1-1.png"
-    - "/images/customers/avatar/client-2-1.png"
-    - "/images/customers/avatar/client-3-1.png"
+  enable: false
+  count: ""
+  label: ""
+  avatars: []
 ---

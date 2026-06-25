@@ -24,7 +24,7 @@
     "projectDetails": "Details du projet"
   },
   "navigation": {
-    "buttonLabel": "Commencer"
+    "buttonLabel": "Prendre RDV"
   },
   "contactInfo": {
     "locationLabel": "Adresse",
@@ -40,8 +40,8 @@
     "backToIntegration": "Parcourir"
   },
   "footerBlock": {
-    "description": "Lumio accompagne les entreprises avec des solutions IT fiables, evolutives et pensees pour une croissance durable.",
-    "copyright": "Copyright © 2024 Lumio Tous droits reserves.",
+    "description": "Automatisation, agents IA et intégrations sur mesure pour les PME — basé en Martinique.",
+    "copyright": "© 2025 Bureau · bureau-mq.com",
     "contactBlockLabel": "Contact",
     "aboutUsLabel": "A propos de nous",
     "quickLinksLabel": "Liens rapides",

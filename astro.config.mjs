@@ -29,6 +29,8 @@ export default defineConfig({
   },
   image: {
     layout: "constrained",
+    domains: ["images.unsplash.com"],
+    remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
   },
   fonts,
 

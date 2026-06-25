@@ -1,15 +1,15 @@
 # Site Configuration
 [site]
-  title            = "Lumio Lite"
-  description      = "Lumio is a modern, high-performance Astro theme crafted for IT companies, digital agencies, and consulting firms. Built with Tailwind CSS for a clean, professional, and fully responsive experience."
-  tagline          = "The Modern Astro Theme for IT & Consulting Businesses"
-  taglineSeparator = "" # default is " - " 
-  baseUrl          = "https://lumio-lite-astro.pages.dev" # Base URL for the site and used in OpenGraph meta tags.
-  logo             = "/images/logo.png" # Path to the site's logo
-  logoWhite        = "/images/logo-white.png" # Path to the site's logo
-  logoText         = "Lumio Lite" # Text displayed next to the logo
-  logoWidth        = "30px" # Width of the logo
-  logoHeight       = "30px" # Height of the logo
+  title            = "Bureau — Automatisation & Agents IA"
+  description      = "Développeur freelance en Martinique spécialisé en automatisation, agents IA et intégrations sur mesure pour les PME."
+  tagline          = "Automatisez ce qui vous ralentit"
+  taglineSeparator = ""
+  baseUrl          = "https://bureau-mq.com"
+  logo             = ""
+  logoWhite        = ""
+  logoText         = "Bureau"
+  logoWidth        = "30px"
+  logoHeight       = "30px"
 
   # Add a trailing slash at the end of URLs (e.g., https://example.com/, https://example.com/contact/)
   # Note: Manually restart your server when you change this value
@@ -24,8 +24,8 @@
 # Specific SEO configurations that complement the general site settings.
 # -----------------------------------------------------------------------------------------------------------------------------------
 [seo]
-  author   = "Getastrothemes"
-  keywords = ["lumio astro theme", "startup astro theme"] # SEO keywords
+  author   = "Alexandre Désiré"
+  keywords = ["automatisation martinique", "agent IA PME", "automatisation processus", "freelance développeur martinique"]
   robots   = "index, follow" # Instructs search engines on how to crawl and index the pages.
 
   [seo.robotsTxt]
@@ -41,9 +41,9 @@
 # Contact Information
 # -----------------------------------------------------------------------------------------------------------------------------------
 [contact]
-  location = "Germany — 785 15h Street, Office 478 Berlin, De 81566"
-  phone    = "+1 840 841 25 69"
-  email    = "infocontact@gmail.com"
+  location = "Martinique · Remote"
+  phone    = "+596 696 41 24 81"
+  email    = "contact@bureau-mq.com"
 
 # Different theme settings
 # -----------------------------------------------------------------------------------------------------------------------------------
@@ -62,7 +62,7 @@
 
   # documentation - https://formspree.io/ | https://formsubmit.co/ | https://docs.netlify.com/forms/setup/
   # Form action URL for the contact form (For more settings related to form see "src/content/sections/contact-section.md")
-  contactFormAction = "https://formsubmit.co/temp.gats@gmail.com" # https://formspree.io/f/your_form_id | https://formsubmit.co/your_form_submission_receive_email | "/"
+  contactFormAction = "https://formsubmit.co/contact@bureau-mq.com" # https://formspree.io/f/your_form_id | https://formsubmit.co/your_form_submission_receive_email | "/"
 
   # formspree | formsubmit.co | netlify (default is formsubmit.co) 
   contactFormProvider = "formsubmit.co"
@@ -72,7 +72,7 @@
   # For changing footer description and footer copyright in different languages see src/i18n/en.json and src/i18n/fr.json
   [settings.copyright]
     enable = true
-    text   = "Copyright © 2024 Lumio All Rights Reserved." # Check src/i18n/en.json and src/i18n/fr.json for changing the copyright text in different languages or directly add value here if you are not using internationalization feature
+    text   = ""
 
   # Mailchimp Subscription Form located in footer
   [settings.subscription]
@@ -85,16 +85,16 @@
   [settings.multilingual]
     # Set `enable` to `true` for enabling the multilingual feature or `false` for disabling it.
     # Run `npm run remove-multilingual` for removing multilingual content files after disabling the feature.
-    enable               = true
-    defaultLanguage      = "en"
-    disableLanguages     = [] # List of languages to disable (eg: ["fr", "es"])
-    showDefaultLangInUrl = false # Show default language in URL (eg: https://getastrothemes.com/en/)
+    enable               = false
+    defaultLanguage      = "fr"
+    disableLanguages     = []
+    showDefaultLangInUrl = false
 
   # Navigation Button In Header
   [settings.navigationButton]
     enable = true
     label  = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
-    url    = "/#contact"
+    url    = "https://calendly.com/sideprojectmq/30min"
 
   # Announcement bar in HeaderThree topbar
   [settings.announcementBar]

@@ -1,17 +1,17 @@
 ---
 enable: true
-badge: "// A PROPOS"
-title: "Des services IT, de gestion et d'accompagnement hautement personnalises."
-imageSecondary: "/images/about/about-rated-pic.jpg"
-imageSecondaryAlt: "Membres de l'entreprise devant un ordinateur portable"
-image: "/images/about/about-two.png"
-imageAlt: "Equipe collaborant autour d'un ordinateur"
-description: "Nous combinons strategie, execution et support continu pour batir des experiences numeriques stables, performantes et adaptees a vos."
+badge: "// À propos"
+title: "Développeur freelance basé en Martinique, spécialisé en automatisation et agents IA."
+imageSecondary: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=600&q=80"
+imageSecondaryAlt: "Code sur écran"
+image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80"
+imageAlt: "Laptop code"
+description: "Je construis des solutions sur mesure qui remplacent les tâches manuelles et répétitives — pour que votre équipe puisse se concentrer sur ce qui compte vraiment."
 
 button:
-  enable: false
-  label: "Decouvrir davantage"
-  url: "/#services"
+  enable: true
+  label: "Prendre RDV"
+  url: "mailto:contact@bureau-mq.com"
   icon:
     enable: true
     name: "ArrowUpRight"
