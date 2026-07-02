@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" width="200" height="52" role="img" aria-label="Bureau Martinique">
+  <title>Bureau Martinique</title>
+  <!-- Mark -->
+  <rect x="0.75" y="0.75" width="50.5" height="50.5" rx="4.25"
+        fill="none" stroke="#111111" stroke-width="1.5"/>
+  <text x="26" y="36"
+        text-anchor="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="28" font-weight="500"
+        fill="#111111">B</text>
+  <!-- Wordmark -->
+  <text x="68" y="28"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="13.5" font-weight="600"
+        letter-spacing="2.5"
+        fill="#111111">BUREAU</text>
+  <text x="68.5" y="44"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="8.5" font-weight="400"
+        letter-spacing="3.5"
+        fill="#888888">MARTINIQUE</text>
+</svg>

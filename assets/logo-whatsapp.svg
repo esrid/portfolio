@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="Bureau">
+  <title>Bureau</title>
+  <rect width="500" height="500" fill="#111111"/>
+  <rect x="175" y="175" width="150" height="150" rx="13"
+        fill="none" stroke="#ffffff" stroke-width="4.5"/>
+  <text x="250" y="269"
+        text-anchor="middle"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="84" font-weight="500"
+        fill="#ffffff">B</text>
+</svg>
